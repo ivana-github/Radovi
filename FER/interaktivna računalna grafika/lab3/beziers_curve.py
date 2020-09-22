@@ -1,6 +1,5 @@
 import math
 import numpy as np
-from varijable_krivulja import *
 from pyglet.gl import *
 
 animacija = True
@@ -8,6 +7,7 @@ vrhovi_koordinate={}
 lista_poligona=[]
 global ociste, glediste
 
+tocke=[(50,100,50), (100,400,100), (350,10, 50), (550,150,200)]
 class Vrh:
     def __init__(self, x, y, z,h):
         self.x = x
